@@ -1,4 +1,4 @@
-package com.zhukaiyuan;
+package cn.com.xcrj.light;
 
 import net.hasor.spring.boot.EnableHasor;
 import net.hasor.spring.boot.EnableHasorWeb;
@@ -10,10 +10,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @EnableHasor()
 @EnableHasorWeb()
 @SpringBootApplication
-public class SpringBootHasorDatawayApplication {
+public class LightDatawayApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootHasorDatawayApplication.class, args);
+        SpringApplication.run(LightDatawayApplication.class, args);
     }
 
 }
