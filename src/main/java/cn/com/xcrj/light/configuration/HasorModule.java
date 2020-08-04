@@ -12,7 +12,7 @@ import javax.sql.DataSource;
 
 @DimModule
 @Component
-public class ExampleModule implements SpringModule {
+public class HasorModule implements SpringModule {
     @Autowired
     private DataSource dataSource = null;
 

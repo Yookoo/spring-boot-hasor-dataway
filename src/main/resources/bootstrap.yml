@@ -1,0 +1,18 @@
+server:
+  port: 8090
+spring:
+  application:
+    name: light-dataway
+  cloud:
+    nacos:
+      config:
+        file-extension: yml
+        group: DEFAULT_GROUP
+        #        namespace: zhu
+        prefix: light-dataway
+        server-addr: 192.168.60.93:8848
+      discovery:
+        server-addr: 192.168.60.93:8848
+  #        namespace: zhu
+  profiles:
+    active: dev
